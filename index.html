@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<p id="choose">
+		Choose a number between <span class="colored-txt">1</span> and <span class="colored-txt">1000</span>. I will guess it in less or exactly <span class="colored-txt">10</span> tries!
+	</p>
+	<p id="try" hidden="true">
+		Is your number <span id="try-nb" class="colored-txt">500</span>?
+	</p>
+	<button id="yes-btn" hidden="true" onclick="found()">Yes, it is!</button>
+	<button id="higher-btn" hidden="true" onclick="higher()">No, it's higher</button>
+	<button id="lower-btn" hidden="true" onclick="lower()">No, it's lower</button>
+	<p id="tries" hidden="true">
+		Number of tries: <span id="nb-tries" class="colored-txt">1</span>
+	</p>
+	<button id="new-game-btn" onclick="newGame()">New game</button>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

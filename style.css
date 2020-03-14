@@ -1,0 +1,47 @@
+*{
+	font-family: consolas;
+	font-size: 60px;
+	background-color:#E0E5EC;
+	color: rgb(71, 108, 126);
+	text-align: center;
+}
+body{
+	padding: 50px;
+	align-content: center;
+	display: block;
+}
+#yes-btn, #higher-btn, #lower-btn{
+	padding: 20px;
+}
+#new-game-btn{
+  /* Basic styling and alignment */
+  padding: 20px 40% 20px 40%;
+    /* Basic styling and alignment */
+  
+}
+button{
+	/* For Neumorphism Effect */
+	background-color:#E0E5EC;
+	box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px    rgba(255,255,255, 0.5);
+	  /* For Neumorphism Effect */
+	border: none;
+	border-radius: 50px;
+	margin: 20px;
+	transition: 0.5s;
+	outline: none;
+}
+
+button:hover{
+	transition-duration: 10s;
+	/* For Neumorphism Effect */
+	background-color:#E0E5EC;
+	box-shadow: inset 3px 3px 4px rgb(163,177,198,0.6), 
+				inset -3px -3px 4px    rgba(255,255,255, 0.5);
+	  /* For Neumorphism Effect */
+}
+
+.colored-txt{
+	color: rgb(184, 43, 43);
+}
+
+

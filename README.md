@@ -1,6 +1,6 @@
 # Guess a number
 
-[This web page](https://rolnikolaygmailcom.github.io/guess_a_number.github.io/) guesses a number between 1 and 1000 in less or exactly 10 attempts. In this game the user picks a number and tells if the number is higher or lower than a number given by machine.
+[This web page](https://rolnikolaygmailcom.github.io/Guess-number/) guesses a number between 1 and 1000 in less or exactly 10 attempts. In this game the user picks a number and tells if the number is higher or lower than a number given by machine.
 
 The machine uses the help of **binary search** instead of linear search, which allows to decrease the number of possible trials (to guess the correct number) from 1000 to **just 10 attempts**.
 
@@ -13,4 +13,4 @@ console.log(getBaseLog(2, 1000));
 // expected output: 9,96
 ```
 
-# To see the web page in action click [here](https://rolnikolaygmailcom.github.io/guess_a_number.github.io/) 
+# To see the web page in action click [here](https://rolnikolaygmailcom.github.io/Guess-number/) 
